@@ -1,0 +1,71 @@
+
+    --transpile-only converte de type pra javascript e ve se tem erros 
+    --ignore-watch node_modules não converte codigos dentro da pasta node modules
+    -- respawn a execução continua até apertar ctrl c
+    return response.send('Hello world') retorna um texto
+    rotas são os caminhos da aplicacao
+    recurso é o que vem no final da rota, exemplo
+        http://localhost:3333/users - users é o recurso da rota
+
+
+        metodos mais utilizados
+
+        get - buscar ou listar uma informação
+        post - criar uma nova informação
+        put - atualizar uma informação
+        delete - deletar uma informação
+
+        Request Body - dados para criação ou atualização de um registro
+        http://localhost:3333/users
+
+        Route Params - identifica qual recurso atualizar ou deletar
+        http://localhost:3333/users/1
+
+        Query Params - paginação, filtros, ordenação
+        http://localhost:3333/users?page=2&sort=name
+
+        /*
+app.get('/users', (request, response) => {
+    console.log(request.body);
+
+
+    const users = [
+        {name: 'Diego', age: 25},
+        {name: 'Mayk', age:23},
+        {name: 'Vini', age:21},
+    
+    ];
+    
+    return response.json(users)
+});
+
+
+app.post('/users', (request, response) => {
+    console.log(request.params);
+
+
+    const users = [
+        {name: 'Diego', age: 25},
+        {name: 'Mayk', age:23},
+        {name: 'Vini', age:21},
+    
+    ];
+    
+    return response.json(users)
+});
+
+app.delete('/users/:id', (request, response) => {
+    console.log(request.query);
+
+
+    const users = [
+        {name: 'Diego', age: 25},
+        {name: 'Mayk', age:23},
+        {name: 'Vini', age:21},
+    
+    ];
+    
+    return response.json(users)
+});*/
+
+    migrations - controlam a versão do banco de dados
