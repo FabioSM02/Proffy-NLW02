@@ -19,3 +19,5 @@
 - After installing all dependencies, give:
 
 `yarn start`
+
+- The project will open in <strong>localhost:3000</strong>
