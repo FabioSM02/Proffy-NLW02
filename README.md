@@ -10,14 +10,14 @@
 
 - Install the project using git bash or zip folder, if you do in git bash type it:
 
-`git clone https://github.com/FabioSM02/Proffy-NLW02`
+```git clone https://github.com/FabioSM02/Proffy-NLW02```
 
 - After copying, install all project dependencies via the terminal using:
 
-`yarn install`
+```yarn install```
 
 - After installing all dependencies, give:
 
-`yarn start`
+```yarn start```
 
 - The project will open in <strong>localhost:3000</strong>
