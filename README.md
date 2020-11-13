@@ -27,3 +27,21 @@ yarn start
 ```
 
 - The project will open in <strong>localhost:3000</strong>
+
+## Technologies used
+
+- ReactJS
+- NodeJS
+- Typescript
+- React-Native
+- SQLite
+
+## Concepts Learned
+
+- Expo
+- UseState
+- ReactDOM
+- Routes
+- Create and get API
+- Render
+- Get, Post, Put and Delete
